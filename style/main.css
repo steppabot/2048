@@ -756,3 +756,16 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+
+  /* Hide scrollbars while keeping scrolling available. */
+  html,
+  body {
+    scrollbar-width: none;
+  }
+  
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
